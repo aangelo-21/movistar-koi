@@ -4,7 +4,7 @@ function FooterLogo () {
 
   return (
     <>
-      <img className="footer-logo" src="\movistar-koi-logo.png" alt="movistar-koi-logo" />
+      <img className="footer-logo" src="\movistar-koi-logo.webp" alt="movistar-koi-logo" />
     </>
   )
 

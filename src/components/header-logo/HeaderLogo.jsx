@@ -4,7 +4,7 @@ function HeaderLogo () {
 
   return (
     <>
-      <img className="header-logo" src="\movistar-koi-logo.png" alt="movistar-koi-logo" />
+      <img className="header-logo" src="\movistar-koi-logo.webp" alt="movistar-koi-logo" />
     </>
   )
 
