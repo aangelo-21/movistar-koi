@@ -1,6 +1,6 @@
 import './Header.css'
-import HeaderLogo from "../HeaderLogo/HeaderLogo"
-import HeaderButtons from "../HeaderButtons/HeaderButtons"
+import HeaderLogo from "../header-logo/HeaderLogo"
+import HeaderButtons from "../header-buttons/HeaderButtons"
 
 function Header () {
 

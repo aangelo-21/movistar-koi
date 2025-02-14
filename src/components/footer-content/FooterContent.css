@@ -1,0 +1,15 @@
+.footer-content {
+  display: flex;
+  flex-flow: column nowrap;
+  
+  justify-content: space-evenly;
+}
+
+.footer-content-item {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer-content-subitem {
+  padding-right: 1rem;
+}

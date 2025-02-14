@@ -1,9 +1,16 @@
-function Footer () {
+import './Footer.css'
+import FooterContent from "../footer-content/FooterContent"
+import FooterLogo from "../footer-log/FooterLogo"
+
+function Footer() {
 
   return (
 
     <>
-      <p>Esto es el footer</p>
+      <div className='footer-container'>
+        <FooterLogo />
+        <FooterContent />
+      </div>
     </>
 
   )
