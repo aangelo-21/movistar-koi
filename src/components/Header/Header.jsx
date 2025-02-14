@@ -1,9 +1,16 @@
+import './Header.css'
+import HeaderLogo from "../HeaderLogo/HeaderLogo"
+import HeaderButtons from "../HeaderButtons/HeaderButtons"
+
 function Header () {
 
   return (
 
     <>
-      <p>Esto es el header</p>
+    <div className="header-container">
+      <HeaderLogo/>
+      <HeaderButtons/>
+    </div>
     </>
 
   )
