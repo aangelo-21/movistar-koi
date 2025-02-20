@@ -8,3 +8,7 @@
   width: 30%;
   padding-right: 2rem;
 }
+
+.header-button {
+  cursor: pointer;
+}
