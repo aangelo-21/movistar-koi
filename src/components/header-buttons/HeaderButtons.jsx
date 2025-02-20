@@ -1,6 +1,6 @@
 import './HeaderButtons.css'
 
-function HeaderButtons () {
+function HeaderButtons() {
   return (
     <>
       <div className="header-buttons-container">

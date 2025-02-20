@@ -1,6 +1,6 @@
 import './HeaderLogo.css'
 
-function HeaderLogo () {
+function HeaderLogo() {
 
   return (
     <>

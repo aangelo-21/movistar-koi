@@ -1,6 +1,6 @@
 import './FooterLogo.css'
 
-function FooterLogo () {
+function FooterLogo() {
 
   return (
     <>
