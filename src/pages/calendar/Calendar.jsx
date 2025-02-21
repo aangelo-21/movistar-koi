@@ -1,8 +1,10 @@
+import MyCalendar from "../../components/my-calendar/MyCalendar"
+
 function Calendar() {
   return (
 
     <>
-      <p>Esto es Calendar</p>
+      <MyCalendar />
     </>
   )
 }

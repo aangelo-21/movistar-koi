@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import './InteractiveMap.css'
 
 function InteractiveMap() {
-  const [center] = useState([40.39282225483843, -3.698554389580734]);
+  const [center, setCenter] = useState([40.39282225483843, -3.698554389580734]);
 
   return (
     <>
