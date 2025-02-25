@@ -91,7 +91,10 @@ function MyCalendar() {
       justifyContent: 'center',
       alignItems: 'center',
       height: '63vh',
-      width: '100vw'
+      paddingTop: '5rem',
+      paddingBottom: '5rem',
+      width: '100%',
+      margin: 0
     }}>
       <div style={{
         height: '60vh',
@@ -99,7 +102,8 @@ function MyCalendar() {
         border: '1px solid #ccc',
         borderRadius: '8px',
         boxShadow: '0 0.25rem 1.25rem rgba(0,0,0,0.15)',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        margin: 0
       }}>
         <Calendar
           localizer={localizer}

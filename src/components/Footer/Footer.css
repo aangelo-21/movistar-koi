@@ -1,5 +1,6 @@
 .footer-container {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   background-color: #0A142F;
   color: white;
