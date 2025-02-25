@@ -1,9 +1,11 @@
+import Banner from "../../components/banner/Banner"
+
 function Home() {
 
   return (
 
     <>
-      <p>Esto es el Home</p>
+      <Banner title={"Home"}/>
     </>
 
   )

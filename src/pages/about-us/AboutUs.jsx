@@ -1,10 +1,11 @@
 import InteractiveMap from "../../components/interactive-map/InteractiveMap"
+import Banner from "../../components/banner/Banner"
 
 function AboutUs() {
   return (
 
     <>
-      <p>Esto es AboutUs</p>
+      <Banner title={"Sobre Nosotros"} />
       <InteractiveMap />
     </>
   )

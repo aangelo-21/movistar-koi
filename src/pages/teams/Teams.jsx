@@ -1,8 +1,10 @@
+import Banner from "../../components/banner/Banner"
+
 function Teams() {
   return (
 
     <>
-      <p>Esto es Teams</p>
+      <Banner title={"Nuestros equipos"} />
     </>
   )
 }
