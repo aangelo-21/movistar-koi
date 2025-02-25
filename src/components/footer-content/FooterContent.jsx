@@ -8,6 +8,18 @@ function FooterContent() {
     setShowPopup(!showPopup);
   };
 
+  const navigateToTwitter = () => {
+    window.open('https://x.com/MovistarKOI', '_blank');
+  };
+
+  const navigateToInstagram = () => {
+    window.open('https://www.instagram.com/movistarkoi/', '_blank');
+  };
+
+  const navigateToGithub = () => {
+    window.open('https://github.com/aangelo-21/movistar-koi', '_blank');
+  };
+
   return (
     <>
       <div className="footer-content">
@@ -16,7 +28,12 @@ function FooterContent() {
           <b className="footer-content-subitem">Teléfono: 913184670</b>
           <b className="footer-content-subitem">Ubicación: <a href="https://maps.app.goo.gl/ZxVTzjgEaZ3YvNP4A">P.º de la Chopera, 14, Arganzuela, 28045 Madrid</a></b>
         </div>
-        <b onClick={togglePopup} style={{ cursor: 'pointer' }}>Terminos y condiciones</b>
+        <b onClick={togglePopup} style={{ cursor: 'pointer' }}>© Movistar KOI 2025 Terminos y condiciones</b>
+        <p>
+          <img className='social-media-icon' src="/x-social-media-white-icon.svg" alt="enlace-twitter" onClick={() => navigateToTwitter()} />
+          <img className='social-media-icon' src="/instagram-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToInstagram()} />
+          <img className='social-media-icon' src="/github-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToGithub()} />
+        </p>
       </div>
 
       {showPopup && (

@@ -51,3 +51,9 @@
 .close-btn:hover {
   color: #888;
 }
+
+.social-media-icon {
+  height: 2vh;
+  padding: 0.2rem;
+  cursor: pointer;
+}

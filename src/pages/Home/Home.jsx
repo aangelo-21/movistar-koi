@@ -5,7 +5,7 @@ function Home() {
   return (
 
     <>
-      <Banner title={"Home"}/>
+      <Banner title={"Inicio"}/>
     </>
 
   )
