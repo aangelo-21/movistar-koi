@@ -1,6 +1,6 @@
 import './Header.css'
-import HeaderLogo from "../header-logo/HeaderLogo"
 import HeaderButtons from "../header-buttons/HeaderButtons"
+import Logo from '../logo/Logo'
 
 function Header() {
 
@@ -8,7 +8,7 @@ function Header() {
 
     <>
       <div className="header-container">
-        <HeaderLogo />
+        <Logo />
         <HeaderButtons />
       </div>
     </>

@@ -1,6 +1,6 @@
 import './Footer.css'
 import FooterContent from "../footer-content/FooterContent"
-import FooterLogo from "../footer-logo/FooterLogo"
+import Logo from '../logo/Logo'
 
 function Footer() {
 
@@ -8,7 +8,7 @@ function Footer() {
 
     <>
       <div className='footer-container'>
-        <FooterLogo />
+        <Logo />
         <FooterContent />
       </div>
     </>
