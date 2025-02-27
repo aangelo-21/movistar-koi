@@ -12,7 +12,7 @@ function InteractiveMap() {
         center={center}
         zoom={20}
         scrollWheelZoom={true}
-        style={{ width: '50%', height: '50vh' }}
+        style={{ width: '50%', height: '50vh', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', borderRadius: '0.2rem', margin: '2rem' }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
