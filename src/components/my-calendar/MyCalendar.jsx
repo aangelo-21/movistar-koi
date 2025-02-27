@@ -31,7 +31,15 @@ const eventsData = [
     end: new Date(2025, 1, 25, 21, 30),
     description: 'Jornada 1 de la Liga PRO de EA FC',
     location: 'Madrid, España'
-  }
+  },
+  {
+    id: 4,
+    title: '[LEC] vs. Fnatic' ,
+    start: new Date(2025, 1, 28, 17, 0),
+    end: new Date(2025, 1, 28, 22, 0),
+    description: 'Semifinales de looser bracket del LoL European Championship',
+    location: 'Berlín, Alemania'
+  },
 ];
 
 function EventPopup({ event, onClose }) {
