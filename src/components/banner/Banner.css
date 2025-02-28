@@ -1,18 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-.banner {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.banner-title {
-  font-family: 'Anton', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 5rem;
-  text-align: center;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

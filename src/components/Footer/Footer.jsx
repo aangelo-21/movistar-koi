@@ -1,4 +1,4 @@
-import './Footer.css'
+import "./Footer.css"
 import FooterContent from "../footer-content/FooterContent"
 import Logo from '../logo/Logo'
 

@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
-import { Calendar, momentLocalizer } from 'react-big-calendar';
-import moment from 'moment';
-import 'moment/locale/es';
-import 'react-big-calendar/lib/css/react-big-calendar.css';
-import { eventsData } from '../../services/eventsData';
+import "./MyCalendar.css"
+import React, { useState } from 'react'
+import { Calendar, momentLocalizer } from 'react-big-calendar'
+import moment from 'moment'
+import 'moment/locale/es'
+import 'react-big-calendar/lib/css/react-big-calendar.css'
+import { eventsData } from '../../services/eventsData'
 
-moment.locale('es');
-const localizer = momentLocalizer(moment);
+moment.locale('es')
+const localizer = momentLocalizer(moment)
 
 function EventPopup({ event, onClose }) {
   return (
@@ -49,7 +50,7 @@ function EventPopup({ event, onClose }) {
 }
 
 function MyCalendar() {
-  const [selectedEvent, setSelectedEvent] = useState(null);
+  const [selectedEvent, setSelectedEvent] = useState(null)
 
   const handleSelectEvent = (event) => {
     setSelectedEvent(event);

@@ -1,34 +1,5 @@
-.about-us-container{
-  display: flex;
-  flex-direction: row;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-  justify-content: center;
-  align-items: center;
-}
-
-.about-us-content {
-  width: 60rem;
-  height: 50vh;
-  border-radius: 0.2rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  margin: 2rem;
-}
-
-.about-us-description {
-  height: 50%;
-  padding: 0.625rem;
-  overflow-y: auto;
-  background-color: #f8f8f8;
-  font-size: 1rem;
-  text-align: justify;
-}
-
-.about-us-title {
-  text-align: center;
-  background-color: #f8f8f8;
-  font-size: 2rem;
-  padding: 0.625rem;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

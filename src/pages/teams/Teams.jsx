@@ -1,6 +1,6 @@
+import "./Teams.css"
 import Banner from "../../components/banner/Banner"
 import Team from "../../components/team/Team";
-import "./Teams.css"
 import { teamsData } from '../../services/teamsData';
 
 function Teams() {

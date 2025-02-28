@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import './InteractiveMap.css'
+import "./InteractiveMap.css"
+import "leaflet/dist/leaflet.css"
+import React, { useState } from 'react'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 function InteractiveMap() {
-  const [center, setCenter] = useState([40.39282225483843, -3.698554389580734]);
+  const [center] = useState([40.39282225483843, -3.698554389580734]);
 
   return (
     <>

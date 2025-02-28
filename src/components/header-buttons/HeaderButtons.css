@@ -1,14 +1,5 @@
-.header-buttons-container {
-  display: flex;
-  flex-flow: row nowrap;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-  justify-content: space-between;
-  align-items: center;
-
-  width: 30%;
-  padding-right: 2rem;
-}
-
-.header-button {
-  cursor: pointer;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

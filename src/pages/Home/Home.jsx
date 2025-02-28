@@ -1,5 +1,5 @@
 import Banner from "../../components/banner/Banner"
-import './Home.css'
+import "./Home.css"
 
 function Home() {
   return (

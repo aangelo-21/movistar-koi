@@ -1,5 +1,5 @@
+import "./FooterContent.css";
 import React, { useState } from 'react';
-import './FooterContent.css';
 
 function FooterContent() {
   const [showPopup, setShowPopup] = useState(false);

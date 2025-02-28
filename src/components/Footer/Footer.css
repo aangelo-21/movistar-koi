@@ -1,14 +1,5 @@
-.footer-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-  background-color: #0A142F;
-  color: white;
-
-  display: flex;
-  flex-flow: row nowrap;
-
-  justify-content: space-around;
-
-  height: 15vh;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
