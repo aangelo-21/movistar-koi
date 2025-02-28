@@ -1,5 +1,79 @@
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+.home-container {
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}
+
+.home-movistar-koi {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.home-title {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  color: #00a9e0;
+  text-align: center;
+}
+
+.home-description {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 90vw;
+  text-align: justify;
+  
+}
+
+.home-image {
+  width: 90vw;
+  height: auto;
+  border-radius: 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  object-fit: cover;
+}
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .home-container {
+    padding: 6vh 8vw;
+  }
+
+  .home-movistar-koi {
+    gap: 4vh;
+    align-items: center;
+  }
+
+  .home-description {
+    max-width: 70vw;
+    margin: 0 auto;
+  }
+
+  .home-image {
+    width: 70vw;
+    height: 40vh;
+    margin: 0 auto;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .home-movistar-koi {
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .home-movistar-koi:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .home-description {
+    max-width: 45vw;
+  }
+
+  .home-image {
+    width: 35vw;
+    height: 35vh;
+  }
+}
