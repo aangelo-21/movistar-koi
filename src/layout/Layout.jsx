@@ -10,8 +10,7 @@ function Layout() {
       <Outlet />
       <Footer />
     </>
-
-  );
+  )
 }
 
 export default Layout;

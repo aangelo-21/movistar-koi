@@ -2,9 +2,7 @@ import Banner from "../../components/banner/Banner"
 import './Home.css'
 
 function Home() {
-
   return (
-
     <>
       <Banner title={"Inicio"} />
       <div className="home-container">
@@ -20,9 +18,7 @@ function Home() {
         </div>
       </div>
     </>
-
   )
-
 }
 
 export default Home

@@ -27,7 +27,6 @@ function InteractiveMap() {
         </Marker>
       </MapContainer>
     </>
-
   );
 }
 

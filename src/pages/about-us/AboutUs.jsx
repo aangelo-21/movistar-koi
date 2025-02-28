@@ -4,7 +4,6 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-
     <>
       <Banner title={"Sobre Nosotros"} />
       <div className="about-us-container">
