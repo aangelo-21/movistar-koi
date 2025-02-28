@@ -1,24 +1,24 @@
-import "./FooterContent.css";
-import React, { useState } from 'react';
+import "./FooterContent.css"
+import React, { useState } from 'react'
 
 function FooterContent() {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(false)
 
   const togglePopup = () => {
-    setShowPopup(!showPopup);
-  };
+    setShowPopup(!showPopup)
+  }
 
   const navigateToTwitter = () => {
-    window.open('https://x.com/MovistarKOI', '_blank');
-  };
+    window.open('https://x.com/MovistarKOI', '_blank')
+  }
 
   const navigateToInstagram = () => {
-    window.open('https://www.instagram.com/movistarkoi/', '_blank');
-  };
+    window.open('https://www.instagram.com/movistarkoi/', '_blank')
+  }
 
   const navigateToGithub = () => {
-    window.open('https://github.com/aangelo-21/movistar-koi', '_blank');
-  };
+    window.open('https://github.com/aangelo-21/movistar-koi', '_blank')
+  }
 
   return (
     <>
@@ -28,8 +28,8 @@ function FooterContent() {
           <b className="footer-content-subitem">Teléfono: 913184670</b>
           <b className="footer-content-subitem">Ubicación: <a href="https://maps.app.goo.gl/ZxVTzjgEaZ3YvNP4A">P.º de la Chopera, 14, Arganzuela, 28045 Madrid</a></b>
         </div>
-        <b onClick={togglePopup} style={{ cursor: 'pointer' }}>© Movistar KOI 2025 Terminos y condiciones</b>
-        <p>
+        <b className="footer-popup-toggle" onClick={togglePopup} style={{ cursor: 'pointer' }}>© Movistar KOI 2025 Terminos y condiciones</b>
+        <p className="social-media-icon-container">
           <img className='social-media-icon' src="/x-social-media-white-icon.svg" alt="enlace-twitter" onClick={() => navigateToTwitter()} />
           <img className='social-media-icon' src="/instagram-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToInstagram()} />
           <img className='social-media-icon' src="/github-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToGithub()} />
@@ -48,7 +48,7 @@ function FooterContent() {
         </div>
       )}
     </>
-  );
+  )
 }
 
-export default FooterContent;
+export default FooterContent

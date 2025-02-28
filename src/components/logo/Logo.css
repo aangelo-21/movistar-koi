@@ -1,5 +1,19 @@
+.logo {
+  width: 20%;
+  margin: 1rem;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 15%;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+ .logo {
+    width: 10%;
+    margin: 5rem;
+  }
+}

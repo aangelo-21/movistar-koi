@@ -1,5 +1,26 @@
+.header-container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 30vh;
+  width: 100%;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .header-container {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 25vh;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .header-container {
+    justify-content: space-between;
+  }
+}
