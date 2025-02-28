@@ -1,17 +1,5 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
-<<<<<<< HEAD:src/components/Header/Header.css
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
-=======
-  justify-content: space-between;
-  align-items: center;
-
-  height: 15vh;
-  width: 100%;
-
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
->>>>>>> 038d17ff85f9ac80107e3a10fe408c933fd3b97a:src/components/header/Header.css

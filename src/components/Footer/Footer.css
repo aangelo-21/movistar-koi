@@ -1,18 +1,5 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
-<<<<<<< HEAD:src/components/Footer/Footer.css
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
-=======
-  background-color: #0A142F;
-  color: white;
-
-  display: flex;
-  flex-flow: row nowrap;
-
-  justify-content: space-around;
-
-  height: 15vh;
-}
->>>>>>> 038d17ff85f9ac80107e3a10fe408c933fd3b97a:src/components/footer/Footer.css
