@@ -26,10 +26,14 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Anton', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .banner-title {
+    font-size: 4rem;
+  }
+}
