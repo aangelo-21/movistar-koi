@@ -22,25 +22,8 @@ function MyCalendar() {
   };
 
   return (
-    <div style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '63vh',
-      paddingTop: '5rem',
-      paddingBottom: '5rem',
-      width: '100%',
-      margin: 0
-    }}>
-      <div style={{
-        height: '60vh',
-        width: '50vw',
-        border: '1px solid #ccc',
-        borderRadius: '8px',
-        boxShadow: '0 0.25rem 1.25rem rgba(0,0,0,0.15)',
-        overflow: 'hidden',
-        margin: 0
-      }}>
+    <div className="calendar-container">
+      <div className="calendar-wrapper">
         <Calendar
           localizer={localizer}
           events={eventsData}
