@@ -18,6 +18,10 @@ In case of error, use --force to install all dependencies
 
   - React
   - JS
+  - Leaflet - Interactive maps library
+  - React-Leaflet - React components for Leaflet maps
+  - React Big Calendar - Calendar component for event management
+  - React Icons - Icon library
 
 ## Authors
 
