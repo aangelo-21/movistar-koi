@@ -33,7 +33,7 @@
   object-fit: cover;
 }
 
-/* For tablets and larger screens */
+/* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
   .home-container {
     padding: 6vh 8vw;
