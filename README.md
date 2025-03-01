@@ -1,26 +1,30 @@
 # Movistar KOI
 
-## Description
-
-
+A website about the Movistar KOI esports team
 
 ## Getting Started
 
+To view the website, just visit the following link https://aangelo-21.github.io/movistar-koi/
 
+### Installing
 
-## Inspiration
+To install it locally, clone the repository
 
+Install dependencies with npm run dev
 
+In case of error, use --force to install all dependencies
 
-## Build With
+## Built With
 
+  - React
+  - JS
 
+## Authors
+
+  - **Angelo Martinez** 
 
 ## Acknowledgments
 
-
-
-
-## Author
-
-Michelangelo Martínez Glielmo
+  - Perplexity Pro
+  - w3schools
+  - MDN
