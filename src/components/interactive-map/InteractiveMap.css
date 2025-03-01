@@ -1,5 +1,56 @@
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .interactive-map {
+    width: 90%;
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.2rem;
+    margin: 1rem auto;
+  }
+
+  .interactive-map-photo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  .map-popup .leaflet-popup-content {
+    margin: 0.5em;
+    min-width: 15rem;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .interactive-map {
+    width: 70%;
+    height: 50vh;
+    margin: 2rem auto;
+  }
+
+  .interactive-map-photo {
+    max-width: 15rem;
+  }
+}
+.interactive-map {
+  width: 50%;
+  height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.2rem;
+  margin: 2rem;
+}
+
+.interactive-map-photo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.map-popup .leaflet-popup-content {
+  margin: 0.5rem;
+  min-width: 200px;
+}

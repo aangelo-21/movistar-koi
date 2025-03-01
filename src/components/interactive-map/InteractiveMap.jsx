@@ -12,14 +12,14 @@ function InteractiveMap() {
         center={center}
         zoom={20}
         scrollWheelZoom={true}
-        style={{ width: '50%', height: '50vh', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', borderRadius: '0.2rem', margin: '2rem' }}
+        className="interactive-map"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={center}>
-          <Popup>
+          <Popup className="map-popup">
             Movistar Esports Center 
             <br /> P.º de la Chopera, 14, Arganzuela, 28045 Madrid 
             <br /> <img className='interactive-map-photo' src="/movistar-esports-center.webp" alt="" />
