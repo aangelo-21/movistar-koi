@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom'
 import "./HeaderButtons.css"
 
 function HeaderButtons() {
+  const navigate = useNavigate()
 
   const handleNavigate = (page) => {
-    window.location.href = `/${page}`;
+    navigate(`/${page}`)
   }
 
   return (

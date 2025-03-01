@@ -8,27 +8,27 @@ export const teamsData = [
     image: "/movistar-koi/teams/superliga.webp"
   },
   {
-    description: "En la Equal Esports Cup, nuestro equipo femenino (KOI Amethyst) se enfrenta a retos en un entorno inclusivo y competitivo, reafirmando nuestro compromiso con la diversidad y la excelencia en League of Legends.",
-    image: "/teams/equal-esports.webp"
+    description: "En la Equal Esports Cup...",
+    image: "/movistar-koi/teams/equal-esports.webp"  // Fix path
   },
   {
-    description: "Nuestro equipo de Valorant compite en el Valorant Champions Tour EMEA, donde medimos nuestro rendimiento contra los mejores de la región en un circuito de alto nivel y con emociones intensas en cada partida",
-    image: "/teams/vct-emea.webp"
+    description: "Nuestro equipo de Valorant...",
+    image: "/movistar-koi/teams/vct-emea.webp"  // Fix path
   },
   {
-    description: "Además, participamos en la liga nacional de Valorant, Valorant Spain: Rising, en la que definimos quiénes son los equipos locales que marcarán la pauta en el circuito español.",
-    image: "/teams/vlr-rising.webp"
+    description: "Además, participamos...",
+    image: "/movistar-koi/teams/vlr-rising.webp"  // Fix path
   },
   {
-    description: "En TFT demostramos nuestra capacidad estratégica en torneos que requieren de optimizar sinergias y tomar decisiones en tiempo real. Es un reto diferente que pone a prueba nuestra creatividad y adaptabilidad.",
-    image: "/teams/tft.webp"
+    description: "En TFT demostramos...",
+    image: "/movistar-koi/teams/tft.webp"  // Fix path
   },
   {
-    description: "Llevamos nuestra pasión al mundo del fútbol virtual, compitiendo en EA Sports FC 24, donde el juego y la estrategia se fusionan para demostrar quién es el mejor en el simulador de fútbol.",
-    image: "/teams/ea-fc25.webp"
+    description: "Llevamos nuestra pasión...",
+    image: "/movistar-koi/teams/ea-fc25.webp"  // Fix path
   },
   {
-    description: "Con orgullo, dos de nuestros jugadores se enfrentan a entrenadores de todo el mundo en el Pokémon World Championships, mostrando la calidad y el ingenio que nos caracteriza en las batallas estratégicas.",
-    image: "/teams/pokemon-vgc.webp"
+    description: "Con orgullo, dos de nuestros jugadores...",
+    image: "/movistar-koi/teams/pokemon-vgc.webp"  // Fix path
   }
-];
+]
