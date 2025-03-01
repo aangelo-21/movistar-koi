@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/movistar-koi">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="*" element={<Home />} />

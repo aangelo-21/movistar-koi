@@ -22,7 +22,7 @@ function InteractiveMap() {
           <Popup className="map-popup">
             Movistar Esports Center 
             <br /> P.º de la Chopera, 14, Arganzuela, 28045 Madrid 
-            <br /> <img className='interactive-map-photo' src="/movistar-esports-center.webp" alt="" />
+            <br /> <img className='interactive-map-photo' src="/movistar-koi/movistar-esports-center.webp" alt="" />
           </Popup>
         </Marker>
       </MapContainer>

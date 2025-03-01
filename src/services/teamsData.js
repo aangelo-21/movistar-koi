@@ -1,11 +1,11 @@
 export const teamsData = [
   {
-    description: "En la LEC, la máxima liga europea de League of Legends, medimos nuestra calidad enfrentándonos a los mejores equipos de EMEA en tres splits (Invierno, Primavera y Verano). Cada fase es clave para seguir construyendo nuestra historia y abrirnos camino hacia torneos internacionales como el First Stand y el Mid‐Season Invitational.",
-    image: "/teams/lec.webp"
+    description: "En la LEC...",
+    image: "/movistar-koi/teams/lec.webp"
   },
   {
-    description: "Representamos lo mejor del talento español en la Superliga, la competición local donde también participa nuestro equipo academia, Movistar KOI Fénix. Aquí pulimos nuestro juego y forjamos el futuro de nuestros jugadores.",
-    image: "/teams/superliga.webp"
+    description: "Representamos...",
+    image: "/movistar-koi/teams/superliga.webp"
   },
   {
     description: "En la Equal Esports Cup, nuestro equipo femenino (KOI Amethyst) se enfrenta a retos en un entorno inclusivo y competitivo, reafirmando nuestro compromiso con la diversidad y la excelencia en League of Legends.",

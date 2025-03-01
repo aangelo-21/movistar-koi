@@ -30,9 +30,9 @@ function FooterContent() {
         </div>
         <b className="footer-popup-toggle" onClick={togglePopup} style={{ cursor: 'pointer' }}>© Movistar KOI 2025 Terminos y condiciones</b>
         <p className="social-media-icon-container">
-          <img className='social-media-icon' src="/x-social-media-white-icon.svg" alt="enlace-twitter" onClick={() => navigateToTwitter()} />
-          <img className='social-media-icon' src="/instagram-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToInstagram()} />
-          <img className='social-media-icon' src="/github-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToGithub()} />
+          <img className='social-media-icon' src="/movistar-koi/x-social-media-white-icon.svg" alt="enlace-twitter" onClick={() => navigateToTwitter()} />
+          <img className='social-media-icon' src="/movistar-koi/instagram-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToInstagram()} />
+          <img className='social-media-icon' src="/movistar-koi/github-white-icon.svg" alt="enlace-instagram" onClick={() => navigateToGithub()} />
         </p>
       </div>
 
